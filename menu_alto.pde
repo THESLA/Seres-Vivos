@@ -38,6 +38,8 @@ line(280,5,280,35);
 line(1080,5,1080,35);
 line(width-41,5,width-41,35);
 line(width-81,5,width-81,35);
+line(width-121,5,width-121,35);
+line(width-161,5,width-161,35);
 //////////sombra//////////
 stroke(250,130);
 line(0,40,width,40);
@@ -63,6 +65,9 @@ fill(g1);
 text("X",width-23,30);
 fill(g3);
 text("?",width-60,30);
+
+text(">",width-100,30);
+text("<",width-140,30);
 
 
 ///////////etiquetas//////////
