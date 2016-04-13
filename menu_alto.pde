@@ -19,16 +19,6 @@ ellipse(300,20,25,25);
 sig=1;
 }
 
-if(sig>=1){
-fill(#FA3200);
-rect(1150,600,300,70);
-fill(255);
-textSize(40);
-stroke(255);
-line(1151,602,1377,602);
-line(1151,667,1377,667);
-text("SIGUIENTE",1160,650);
-}
 
 
 int a=1;
@@ -42,7 +32,6 @@ for (int i = 300; i < 1100; i = i+40) {
   text(a,i,24);
   a=a+1;
 }
-textAlign(LEFT);
 stroke(150);
 strokeWeight(1.0);
 line(280,5,280,35);
@@ -71,16 +60,16 @@ fill(255);
 rect(width-40,0,40,40);
 
 fill(g1);
-text("X",width-30,30);
+text("X",width-23,30);
 fill(g3);
-text("?",width-65,30);
+text("?",width-60,30);
 
 
 ///////////etiquetas//////////
 if((mouseX>1323 && mouseX<1366)&& (mouseY<40 && mouseY>0)){
   fill(255);
   textSize(18);
-  text("¿SALIR?",1300,65);
+  text("¿SALIR?",1330,65);
   g1=#FF0000;
 }else{
 g1=90;
@@ -99,7 +88,7 @@ if((mouseX>1323 && mouseX<1366)&& (mouseY<80 && mouseY>40)&& (mouseButton == LEF
 if((mouseX>1280 && mouseX<1323)&& (mouseY<40 && mouseY>0)){
 fill(255);
   textSize(18);
-  text("¿Quienes somos?",1210,65);
+  text("¿Quienes somos?",1290,65);
 }
 if((mouseX>1280 && mouseX<1323)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)){
   ext=true;

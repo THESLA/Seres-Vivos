@@ -7,12 +7,13 @@ void portada(){
   fill(0);
   textFont(font0);
   textSize(24);
-  text("VEN CON NOSOTROS Y DESCUBRE LA AVENTURA DE CONOCER QUE SON LOS SERES VIVOS",400,650,700,600);
+  textAlign(CENTER);
+  text("VEN CON NOSOTROS Y DESCUBRE LA AVENTURA DE CONOCER QUE SON LOS SERES VIVOS",330,650,700,600);
   
   fill(255);
   textFont(ubuntu);
   textSize(45);
-  text("SERES VIVOS",550,100);
+  text("SERES VIVOS",width/2,100);
   
   ellipseMode(CENTER);
   fill(0,150,255,tras);
