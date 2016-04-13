@@ -2,6 +2,8 @@
 PImage gallina,nacer,crecen,escudo,extrasJames,textura,portada,game;
 PFont font0,ubuntu;
 boolean ext,p0,p1;
+int sig=0,butonEspera=0;
+
 void settings() {
     if (displayWidth>1367){
   size(1366,768,FX2D);

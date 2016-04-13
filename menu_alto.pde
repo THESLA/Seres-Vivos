@@ -1,7 +1,7 @@
 
 color g1=90,g2=150,g3=90;
-int sig=0;
 void menu_alto(){
+butonEspera=butonEspera-1;
 noStroke();
 fill(255);
 rect(0,0,width,40);
@@ -16,7 +16,9 @@ for (int i = 300; i < 1100; i = i+40) {
 if (p1==true){
 fill(#FA3200);
 ellipse(300,20,25,25);
+if(sig<1){
 sig=1;
+}
 }
 
 
@@ -78,7 +80,18 @@ if((mouseX>1323 && mouseX<1366)&& (mouseY<40 && mouseY>0)){
   g1=#FF0000;
 }else{
 g1=90;
+}
 
+////////botonSigiente//////////
+if((mouseX<1285 && mouseX>1245)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)&&(butonEspera<=0)){
+  sig=sig+1;
+  butonEspera=30;
+}
+
+///////botonAtras//////////
+if((mouseX>1205 && mouseX<1245)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)&&(butonEspera<=0)){
+  sig=sig-1;
+  butonEspera=30;
 }
 
 if((mouseX>1323 && mouseX<1366)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)){
@@ -95,9 +108,9 @@ fill(255);
   textSize(18);
   text("¿Quienes somos?",1290,65);
 }
+
 if((mouseX>1280 && mouseX<1323)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)){
   ext=true;
-  
 }
 
 if((mouseX>1084 && mouseX<1150)&& (mouseY<40 && mouseY>0)){
@@ -112,5 +125,5 @@ g2=150;
 
 
 fill(0);
-///text(mouseX+" "+mouseY,mouseX,mouseY);
+text(mouseX+" "+mouseY,mouseX,mouseY);
 }

@@ -2,17 +2,31 @@
 float vas=1377,vos=1377,vel=0.5,vel0=0.7;
 void per1(){
   if (p1==true){
-  tint(255,250);
- image(gallina,450,130,450,450);
-////  image(nacer,450,150,700,480);
-  ///image(crecen,450,150,800,480);
+///////////////////////1///////////////
+if(sig==1){
+tint(255,250);
+image(gallina,450,130,450,450);
   textSize(65);
   fill(255);
   text("¿Que son los seres vivos?",width/2,650);
   
   textSize(20);
 ////  text("Los seres vivos son organismos que nacen, se nutren, respiran, se desarrollan, crecen, se reproducen y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",350,600,700,500);
+}
 
+////////////////2/////////
+if(sig==2){
+  tint(255,255);
+ image(nacer,350,150,700,480); 
+}
+
+//////////////3/////////////
+if(sig==3){
+  tint(255,255);
+ image(crecen,350,150,800,480); 
+}   
+    
+///////////efectoNoTocar//////////////
 fill(#FA3200);
 rect(0,0,vos,height);
 fill(255);
