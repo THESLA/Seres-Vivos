@@ -86,6 +86,7 @@ g1=90;
 if((mouseX<1285 && mouseX>1245)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)&&(butonEspera<=0)){
   sig=sig+1;
   butonEspera=30;
+  reTranciciones();
 }
 
 ///////botonAtras//////////
@@ -125,5 +126,5 @@ g2=150;
 
 
 fill(0);
-text(mouseX+" "+mouseY,mouseX,mouseY);
+///text(mouseX+" "+mouseY,mouseX,mouseY);
 }

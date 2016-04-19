@@ -17,15 +17,41 @@ image(gallina,450,130,450,450);
 ////////////////2/////////
 if(sig==2){
   tint(255,255);
- image(nacer,350,150,700,480); 
+  image(nacer,320,100,700,480);
+  textSize(38);
+  fill(255);
+  tranciciones();
+  text("Los seres vivos son organismos que nacen,",ps1,650);
 }
 
 //////////////3/////////////
 if(sig==3){
-  tint(255,255);
- image(crecen,350,150,800,480); 
-}   
-    
+ tint(255,255);
+ image(crecen,285,110,800,480);
+ textSize(38);
+ fill(255);
+   tranciciones();  
+ text("se nutren, respiran, se desarrollan, crecen,",ps1,650);
+}  
+
+//////////////4//////////
+if(sig==4){
+ tint(255,255);
+ image(reproducen,285,110,800,480);
+ textSize(38);
+ fill(255);
+ tranciciones();
+ text("se reproducen",ps1,650);
+}
+
+////////////5////////////
+if(sig==5){
+ tint(255,255);
+ image(mueren,285,110,800,480);
+ textSize(38);
+ fill(255); 
+ text("y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",290,580,800,500);
+}    
 ///////////efectoNoTocar//////////////
 fill(#FA3200);
 rect(0,0,vos,height);

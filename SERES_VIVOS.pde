@@ -1,5 +1,5 @@
 
-PImage gallina,nacer,crecen,escudo,extrasJames,textura,portada,game;
+PImage mueren,reproducen,gallina,nacer,crecen,escudo,extrasJames,textura,portada,game;
 PFont font0,ubuntu;
 boolean ext,p0,p1;
 int sig=0,butonEspera=0;
@@ -24,11 +24,13 @@ void setup(){
   escudo= loadImage("escudo.png");
   gallina= loadImage("galio.png");
   nacer= loadImage("nacen.png");
+  reproducen= loadImage("reproducen.png");
   crecen= loadImage("crecer.png");
+  mueren= loadImage("mueren.png");
   font0= loadFont("FreeMono-48.vlw");
   ubuntu= loadFont("Ubuntu-16.vlw");
-  
 }
+
 void draw(){
   fondo();
   portada();
@@ -36,7 +38,7 @@ void draw(){
   //////////////////////////////////
   extras();
   menu_alto();
-  
+
   println(frameRate);
   
 }
