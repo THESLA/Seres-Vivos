@@ -1,7 +1,7 @@
 
 float vas=1377,vos=1377,vel=0.5,vel0=0.7;
 void per1(){
-  if (p1==true){
+  if (sig<=5 && sig!=0){
 ///////////////////////1///////////////
 if(sig==1){
 tint(255,250);
@@ -49,8 +49,9 @@ if(sig==5){
  tint(255,255);
  image(mueren,285,110,800,480);
  textSize(38);
- fill(255); 
- text("y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",290,580,800,500);
+ fill(255);
+ tranciciones();
+ text("y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",ps1-420,580,800,500);
 }    
 ///////////efectoNoTocar//////////////
 fill(#FA3200);

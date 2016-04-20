@@ -54,7 +54,7 @@ line(0,42,width,42);
 textFont(ubuntu);
 fill(100);
 textSize(28);
-text("Seres Vivos",115,30);
+text("Seres Vivos",205,30);
 
 tint(255,g2);
 image(game,1085,-1);
@@ -97,7 +97,8 @@ if((mouseX>1205 && mouseX<1245)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT
 
 if((mouseX>1323 && mouseX<1366)&& (mouseY<40 && mouseY>0)&& (mouseButton == LEFT)){
     exit();
-    g3=#FF9100;  
+    g3=#FF9100;
+    reTranciciones();
 }
 
 if((mouseX>1323 && mouseX<1366)&& (mouseY<80 && mouseY>40)&& (mouseButton == LEFT)){

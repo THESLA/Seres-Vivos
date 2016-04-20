@@ -20,7 +20,7 @@ image(extrasJames,0,40);
 
 textSize(28);
 fill(255);
-text("James Ravelo C",30,505);
+text("James Ravelo C",130,505);
 
 textFont(font0);
 textSize(14);
