@@ -50,7 +50,7 @@ line(0,41,width,41);
 stroke(250,90);
 line(0,42,width,42);
 
-
+conParticulas();
 textFont(ubuntu);
 fill(100);
 textSize(28);
@@ -128,4 +128,6 @@ g2=150;
 
 fill(0);
 ///text(mouseX+" "+mouseY,mouseX,mouseY);
+
+
 }

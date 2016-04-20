@@ -3,6 +3,12 @@ PImage mueren,reproducen,gallina,nacer,crecen,escudo,extrasJames,textura,portada
 PFont font0,ubuntu;
 boolean ext,p0,p1;
 int sig=0,butonEspera=0;
+////////////////particilas///////////
+particula h1 = new particula();
+particula h2 = new particula();
+particula h3 = new particula();
+particula h4 = new particula();
+particula h5 = new particula();
 
 void settings() {
     if (displayWidth>1367){
