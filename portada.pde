@@ -32,7 +32,7 @@ tras=100;
 }
 
 if((mouseX>600 && mouseX<760)&&(mouseY>305 && mouseY<462)&&(mousePressed == true)){
-p1=true;
+sig=1;
 p0=true;
 }
 

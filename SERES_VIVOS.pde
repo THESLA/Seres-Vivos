@@ -39,9 +39,10 @@ void setup(){
 
 void draw(){
   fondo();
-  portada();
   per1();
+  per2();
   //////////////////////////////////
+  portada();
   extras();
   menu_alto();
 

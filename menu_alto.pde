@@ -12,15 +12,17 @@ fill(0,150,255);
 for (int i = 300; i < 1100; i = i+40) {
   ellipse(i,20,25,25);
 }
-
-if (p1==true){
+/////////////indicadoresColorNaranja////////////
+///////////////1//////////////
+if (sig!=0 && sig>=1 && sig<6){
 fill(#FA3200);
 ellipse(300,20,25,25);
-if(sig<1){
-sig=1;
 }
+//////////////2//////////////
+if (sig!=0 && sig>=6 && sig<10){
+fill(#FA3200);
+ellipse(340,20,25,25);
 }
-
 
 
 int a=1;
@@ -52,9 +54,14 @@ line(0,42,width,42);
 
 conParticulas();
 textFont(ubuntu);
+fill(255);
+textSize(28);
+text("Seres Vivos",204,30);
+text("Seres Vivos",206,30);
 fill(100);
 textSize(28);
 text("Seres Vivos",205,30);
+
 
 tint(255,g2);
 image(game,1085,-1);

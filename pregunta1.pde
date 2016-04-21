@@ -4,7 +4,7 @@ void per1(){
   if (sig<=5 && sig!=0){
 ///////////////////////1///////////////
 if(sig==1){
-tint(255,250);
+tint(255,255);
 image(gallina,450,130,450,450);
   textSize(65);
   fill(255);
@@ -16,7 +16,7 @@ image(gallina,450,130,450,450);
 
 ////////////////2/////////
 if(sig==2){
-  tint(255,255);
+  tint(255,ps1);
   image(nacer,320,100,700,480);
   textSize(38);
   fill(255);
@@ -26,7 +26,7 @@ if(sig==2){
 
 //////////////3/////////////
 if(sig==3){
- tint(255,255);
+ tint(255,ps1);
  image(crecen,285,110,800,480);
  textSize(38);
  fill(255);
@@ -36,7 +36,7 @@ if(sig==3){
 
 //////////////4//////////
 if(sig==4){
- tint(255,255);
+ tint(255,ps1);
  image(reproducen,285,110,800,480);
  textSize(38);
  fill(255);
@@ -46,12 +46,12 @@ if(sig==4){
 
 ////////////5////////////
 if(sig==5){
- tint(255,255);
+ tint(255,ps1);
  image(mueren,285,110,800,480);
  textSize(38);
  fill(255);
  tranciciones();
- text("y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",ps1-420,580,800,500);
+ text("y mueren. Lo no vivo no tiene la capacidad de hacer nada de esto, no sigue este ciclo continuo y ordenado de cambios.",ps1-400,580,800,500);
 }    
 ///////////efectoNoTocar//////////////
 fill(#FA3200);
